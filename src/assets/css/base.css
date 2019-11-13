@@ -1,0 +1,21 @@
+@import './normaloze.css';
+
+:root{
+    /* 字体颜色 */
+    --color-text:#666; 
+    /* 字体大小 */
+    --font-size:14px;
+    /* 使用方式 font-size: var(--font-size); */
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color:var(--color-text);
+    text-decoration: none;
+}
